@@ -54,10 +54,12 @@ export const NavBar = () => {
                                 <a href="#"><img src={navIcon2} alt="" /></a>
                                 <a href="#"><img src={navIcon3} alt="" /></a>
                             </div>
+                        </span>
+                        <span className="navbar-text">
                             <HashLink to='#getStarted'>
-                            <button className="vvd" onClick={() => console.log('download')}>
-                                <span>Get Started</span>
-                            </button>
+                                <button className="vvd" onClick={() => console.log('download')}>
+                                    <span>Get Started</span>
+                                </button>
                             </HashLink>
                         </span>
                     </Navbar.Collapse>

@@ -31,10 +31,9 @@ export const Functions = () => {
     return (
         <section className="function" id="function">
             <AnimationOnScroll animateIn="animate__fadeIn">
-            <div className="container">
-                <div className="row">
-                    <div className="col-12">
-                        <div className="function-bx wow zoomIn">
+                <Container>
+                    <Row>
+                        <Col size={12}>
                             <h2>Functions</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme function-slider">
@@ -51,11 +50,11 @@ export const Functions = () => {
                                     <img src={meter2} alt="Image" />
                                 </div>
                             </Carousel>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img className="background-image" src={colorSharp} alt="Image" />
+                        </Col>
+                    </Row>
+                </Container>
+                <img className="background-image" src={colorSharp} alt="Image" />
+
             </AnimationOnScroll>
         </section>
     )
