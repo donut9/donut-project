@@ -48,15 +48,12 @@ export const Banner = () => {
         <section className="banner" id="home">
             <Container>
                 <Row className="aligh-items-center">
-                    <Col xs={12} md={6} xl={7}>
+                    <Col md={8}>
                         <span className="tagline">Welcome to the Donut</span>
                         <h1>{`We,`} <span className="txt-rotate" dataPeriod="500" data-rotate='[ "Identify and", "Let You Know" ]'><span className="wrap">{text}</span></span></h1>
                         <p><b>Donut Project provides Solution for Visual Impairment in Children under 5 year old through Artificial Intelligence.</b> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
                         <button onClick={() => console.log('connect')}>Explore More <ArrowRightCircle size={25} /></button>
-                    </Col>
-                    {/* <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Img" />
-                    </Col> */}
+                    </Col>              
                 </Row>
             </Container>
         </section>
